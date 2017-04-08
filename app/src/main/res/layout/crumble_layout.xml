@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@+id/breadcrumb_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/breadcrumbs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_chevron_right_white_24dp"
+            android:text="test22222" />
+    </LinearLayout>
+
+</HorizontalScrollView>
